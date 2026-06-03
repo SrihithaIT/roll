@@ -1,0 +1,1 @@
+Open login.html or index.html in your browser. All pages are linked using relative file paths. Main styling is in styles.css and sidebar/navigation logic is in app.js.
