@@ -1,0 +1,17 @@
+name: RollOn CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download Code
+        uses: actions/checkout@v4
+
+      - name: Success Message
+        run: echo "RollOn website deployment workflow started"
